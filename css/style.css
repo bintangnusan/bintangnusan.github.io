@@ -163,3 +163,212 @@ h6 {
     margin: 0;
 }
 /* End Box */
+
+/* Start Effect */
+/* @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1545 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 10%;
+  max-width: 20%;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #000000;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.snip1545 *,
+.snip1545 *:before,
+.snip1545 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.snip1545 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+
+.snip1545 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.snip1545 figcaption:before,
+.snip1545 figcaption:after,
+.snip1545 figcaption div:before,
+.snip1545 figcaption div:after {
+  opacity: 0;
+}
+
+.snip1545 figcaption:before,
+.snip1545 figcaption:after {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  content: '';
+  background-color: #080808;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.snip1545 figcaption:before {
+  top: 0;
+  left: 0;
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+.snip1545 figcaption:after {
+  bottom: 0;
+  right: 0;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.snip1545 figcaption div:before,
+.snip1545 figcaption div:after {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  content: '';
+  background-color: #000000;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.snip1545 figcaption div:before {
+  top: 0;
+  right: 0;
+  -webkit-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+.snip1545 figcaption div:after {
+  bottom: 0;
+  left: 0;
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+
+.snip1545 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  z-index: 1;
+  opacity: 0;
+}
+
+.snip1545 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1545:hover img,
+.snip1545.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.snip1545:hover i,
+.snip1545.hover i {
+  opacity: 0.7;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.snip1545:hover figcaption:before,
+.snip1545.hover figcaption:before,
+.snip1545:hover figcaption:after,
+.snip1545.hover figcaption:after,
+.snip1545:hover figcaption div:before,
+.snip1545.hover figcaption div:before,
+.snip1545:hover figcaption div:after,
+.snip1545.hover figcaption div:after {
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+  opacity: 0.8;
+} */
+/* End Effect */
+
+/* Start Menu  */
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+.snip1335 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1335 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+}
+.snip1335 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1em;
+  overflow: hidden;
+}
+.snip1335 a {
+  padding: 0.3em 0.8em;
+  backface-visibility: hidden;
+  color: #bfbfbf;
+  display: block;
+  line-height: 2em;
+  padding: 0 1em;
+  position: relative;
+  text-decoration: none;
+}
+.snip1335 a:after {
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+  color: #2980b9;
+  content: attr(data-hover);
+  top: 0;
+  line-height: 2em;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.snip1335 li:hover a,
+.snip1335 li.current a {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+  color: transparent;
+}
+.snip1335 li:hover a:after,
+.snip1335 li.current a:after {
+  opacity: 1;
+}
+/* Demo purposes only */
+body {
+  background-color: none;
+}
+/* End Menu */
