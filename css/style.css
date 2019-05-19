@@ -1,0 +1,165 @@
+/* Start Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Modak|Varela+Round&display=swap');
+/* End Google Font*/
+
+/* Start Body */
+body {
+    /* background: url(../images/nature.jpg);
+    background-size: 300px 100px;
+    background-repeat: no-repeat;
+    background-position: center; */
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug*/
+.bg-blue {
+    background-color: blue;
+}
+.bg-grey {
+    background-color: #33313b;
+}
+.bg-light-grey {
+    background-color: grey
+}
+/* Start Debug*/
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo*/
+.logo {
+    text-align: center
+}
+/* End Logo*/
+
+
+/* Start Hyperlink */
+a:link,
+a:visited {
+    color: #207dff;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+/* End Hyperlink */
+
+/* Start Menu Primer*/
+.menu-primer ul {
+    text-align: center;
+}
+
+.menu-primer li {
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: black;
+    font-size: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    letter-spacing: 0,5px;
+    font-family: Varela Round, Helvetica, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: #f8b739;
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu-primer .active {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+/* End Menu Primer*/
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #f6f8fa;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+    font-family: Modak, Helvetica, sans-serif
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 25px;
+    text-align: center;
+}
+.jumbotron h3 {
+    font-size: 24px;
+    text-align: center;
+}
+/* End Jumbotron */
+
+/* Start Heading */
+h1, h2, h3, h4, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 30px
+}
+h2 {
+    font-size: 26px
+}
+h3 {
+    font-size: 24px
+}
+h4 {
+    font-size: 20px
+}
+h5 {
+    font-size: 18px
+}
+h6 {
+    font-size: 16px
+}
+/* Start Heading */
+
+/* Start Main */
+.main-menu-one {
+    float: left;
+    width: 49%;
+}
+.main-menu-two {
+    float: right;
+    width: 49%;
+}
+/* Start Main */
+
+/* Start Box */
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 4px 4px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+/* End Box */
