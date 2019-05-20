@@ -11,103 +11,147 @@
         <!-- Start Description -->
         <meta name="description" content="Tempat Pemesanan Segala Bentuk Desain Grafis Murah" >
         <!-- End Description -->
+
+        <!-- Start CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- End CSS -->
+
+        <!-- Strat JS -->
+        <script src="js/function.js"></script>
+        <!-- End JS -->
     </head>
     <body>
         <!-- Start Logo-->
-        <a href="index.html" title="Bintang Design">
-            <img src="images/logo-bintang-design-grafis.jpg" alt="logo bintang design grafis" width="150">
-        </a>
+        <div class="container logo">
+            <a href="index.html" title="Bintang Design">
+                <img src="images/logo-bintang-design-grafis.jpg" alt="logo bintang design grafis" width="250">
+            </a>
+        </div>
         <!-- End Logo-->
 
         <!-- Start Menu Primer -->
-        <ul>
-            <li><a href="index.html" title="Beranda"> Beranda</a></li>
-            <li><a href="layanan.html" title="Layanan">Layanan</a></li>
-            <li><a href="pemesanan.html" title="Cara Pemesanan">Cara Pemesanan</a></li>
-            <li><a href="pertanyaan.html" title="FAQ">FAQ</a></li>
-            <li><a href="tentang.html" title="Tentang Kami">Tentang Kami</a></li>
-            <li><a href="kontak.html" title="Kontak Kami">Kontak Kami</a></li>
-        </ul>
-        <!-- Start Menu Primer -->
+        <div class="container menu-primer">
+            <!-- <ul>
+                <li><a href="index.html" title="Beranda" class="active"> Beranda</a></li>
+                <li><a href="layanan.html" title="Layanan" class="active">Layanan</a></li>
+                <li><a href="pemesanan.html" title="Cara Pemesanan" class="active">Cara Pemesanan</a></li>
+                <li><a href="pertanyaan.html" title="FAQ" class="active">FAQ</a></li>
+                <li><a href="tentang.html" title="Tentang Kami" class="active">Tentang Kami</a></li>
+                <li><a href="kontak.html" title="Kontak Kami" class="active">Kontak Kami</a></li>
+            </ul> -->
+            <ul class="snip1335">
+                <li class="current"><a href="index.html" data-hover="Home">Home</a></li>
+                <li><a href="layanan.html" data-hover="Layanan">Layanan</a></li>
+                <li><a href="pemesanan.html" data-hover="Pemesanan">Pemesanan</a></li>
+                <li><a href="pertanyaan.html" data-hover="FAQs">FAQs</a></li>
+                <li><a href="tentang.html" data-hover="Tentang Kami">Tentang Kami</a></li>
+                <li><a href="kontak.html" data-hover="Kontak Kami">Kontak Kami</a></li>
+            </ul>
+        </div>
+        <!-- End Menu Primer -->
 
         <!-- Start Jumbotron -->
-        <h1>Kontak Kami</h1>
-        <h3>Hubungi Kami Untuk Info Lebih Lengkap</h3>
+        <div class="container jumbotron">
+            <h1>Kontak Kami</h1>
+            <h3>Hubungi Kami Untuk Info Lebih Lengkap</h3>
+        </div>
         <!-- End Jumbotron -->
 
         <!-- Start Form -->
-        <h2>Form Kontak Bintang Design</h2>
-        <p>Untuk Info Pemesanan, Konfirmasi, dan Berbagai Info Yang Diperlukan, Pelanggan Bisa Menghubungi Kami Melalui Form di Bawah ini :</p>
+        <div class="container">
+            <div class="box-heading">
+                <h3>Form Kontak Bintang Design</h3>
+            </div>
+            <div class="box-isi">
+                <p>Untuk Info Pemesanan, Konfirmasi, dan Berbagai Info Yang Diperlukan, Pelanggan Bisa Menghubungi Kami Melalui Form di Bawah ini :</p>
 
-        <form action="https://formspree.io/ajibintangnusan@gmail.com/" method="POST">
-            <label for="nama">Nama Lengkap</label>
-            <br>           
-            <input type="text" name="nama" id="nama" placeholder="Nama Lengkap">
+                <form action="https://formspree.io/ajibintangnusan@gmail.com/" method="POST">
+                    <label for="nama">Nama Lengkap</label>
+                    <br>           
+                    <input type="text" name="nama" id="nama" placeholder="Nama Lengkap" size="60">
 
-            <br><br>
+                    <br><br>
 
-            <label for="kota">Kota</label>
-            <br>
-            <input type="text" name="kota" id="kota" placeholder="Kota">
+                    <label for="kota">Kota</label>
+                    <br>
+                    <input type="text" name="kota" id="kota" placeholder="Kota" size="60">
 
-            <br><br>
+                    <br><br>
 
-            <label for="email">Email</label>
-            <br>
-            <input type="text" name="email" id="email" placeholder="email@bintangdesign.com">
-            
-            <br><br>
-            <label for="pesan">Pesan</label>
-            <br>
-            <textarea name="pesan" id="pesan" cols="25" rows="10" placeholder="Tulis pesan Anda di sini"></textarea>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" name="email" id="email" placeholder="email@bintangdesign.com" size="60">
+                    
+                    <br><br>
+                    <label for="pesan">Pesan</label>
+                    <br>
+                    <textarea name="pesan" id="pesan" cols="60" rows="20" placeholder="Tulis pesan Anda di sini"></textarea>
 
-            <br><br>
+                    <br><br>
 
-            <input type="submit" name="kirim" id="kirim" size="30" value="Kirim">
-        </form>
+                    <input type="submit" name="kirim" id="kirim" size="30" value="Kirim">
+                </form>
+            </div>
+        </div>
         <!-- End Form -->
 
-        <!-- Start Menu Sekunder -->
-        <h4>Bintang Design</h4>
-        <p>Melayani Kebutuhan Anda dalam Desain Grafis</p>
-        <p>Email <a href="mailto:ajibintangnusan@gmail.com" title="ajibintangnusan@gmail.com">ajibintangnusan@gmail.com</a></p>
-        <p>WA <a href="tel:(+62)858-5509-4959" title="(+62)858-5509-4959">(+62)858-5509-4959</a></p>
+       <!-- Start Menu Sekunder -->
+    <div class="container-full menu-sekunder">
+        <div class="container"></div>
+        <!-- Start Bintang Design -->
+        <div class="menu-sekunder-one">
+            <h4>Bintang Design</h4>
+            <p>Melayani Kebutuhan Anda dalam Desain Grafis</p>
+            <p>Email <a href="mailto:ajibintangnusan@gmail.com" title="ajibintangnusan@gmail.com">ajibintangnusan@gmail.com</a></p>
+            <p>WA <a href="tel:(+62)858-5509-4959" title="(+62)858-5509-4959">(+62)858-5509-4959</a></p>
+        </div>
+        <!-- End Bintang Design -->
 
-        <h4>menu</h4>
-        <ul>
-            <li><a href="index.html" title="Beranda"> Beranda</a></li>
-            <li><a href="layanan.html" title="Layanan">Layanan</a></li>
-            <li><a href="pemesanan.html" title="Cara Pemesanan">Cara Pemesanan</a></li>
-            <li><a href="pertanyaan.html" title="FAQ">FAQ</a></li>
-            <li><a href="tentang.html" title="Tentang Kami">Tentang Kami</a></li>
-            <li><a href="kontak.html" title="Kontak Kami">Kontak Kami</a></li>
-        </ul>
-        
+        <!-- Start Menu -->
+        <div class="menu-sekunder-two">
+            <h4>menu</h4>
+            <ul>
+                <li><a href="index.html" title="Beranda"> Beranda</a></li>
+                <li><a href="layanan.html" title="Layanan">Layanan</a></li>
+                <li><a href="pemesanan.html" title="Cara Pemesanan">Cara Pemesanan</a></li>
+                <li><a href="pertanyaan.html" title="FAQ">FAQ</a></li>
+                <li><a href="tentang.html" title="Tentang Kami">Tentang Kami</a></li>
+                <li><a href="kontak.html" title="Kontak Kami">Kontak Kami</a></li>
+            </ul>
+        </div>
+        <!-- End Menu -->
 
-        <h4>Media Sosial</h4>
-        <ul>
-            <li>
+        <!-- Start Sosmed -->
+        <div class="menu-sekunder-three">
+            <h4>Media Sosial</h4>
+            <ul>
                 <a href="https://www.facebook.com/profile.php?id=100008391818435" title="Facebook - Bintang Design">
-                    <img src="images/logo-facebook.png" alt="logo facebook" width="40"> Facebook - Bintang Design
+                    <img src="images/logo-facebook.png" alt="logo facebook" width="20"> 
                 </a>
-            </li>
-            <li><a href="https://www.instagram.com/nusan_bintang/?hl=id" title="Instagram - Bintang Design">
-                    <img src="images/logo-instagram.png" alt="logo Instagram" width="40"> Instagram - Bintang Design
+            
+                <a href="https://www.instagram.com/nusan_bintang/?hl=id" title="Instagram - Bintang Design">
+                    <img src="images/logo-instagram.png" alt="logo Instagram" width="20"> 
                 </a>
-            </li>
-            <li><a href="https://id.pinterest.com/ajibintang_tara/" title="Pinterest - Bintang Design">
-                    <img src="images/logo-pinterest.png" alt="logo Pinterest" width="40"> Pinterest - Bintang Design
+            
+                <a href="https://id.pinterest.com/ajibintang_tara/" title="Pinterest - Bintang Design">
+                    <img src="images/logo-pinterest.png" alt="logo Pinterest" width="20"> 
                 </a>
-            </li>
-            <li><a href="https://www.behance.net/ajibintang45d6" title="Behance - Bintang Design">
-                    <img src="images/logo-behance.png" alt="logo Behance" width="40"> Behance - Bintang Design
+            
+                <a href="https://www.behance.net/ajibintang45d6" title="Behance - Bintang Design">
+                    <img src="images/logo-behance.png" alt="logo Behance" width="20"> 
                 </a>
-            </li>
-        </ul>
-        <!-- End Menu Sekunder -->
+                
+            </ul>
+        </div>
+        <!-- End Sosmed -->
 
-        <!-- Start Copyright -->
+    </div>
+    <!-- End Menu Sekunder -->
+
+    <!-- Start Copyright -->
+    <div class="container copyright">
         <p>Copyright &copy; 2019 - Bintang Design</p>
-        <!-- End Copyright -->
+    </div>
+    <!-- End Copyright -->
     </body>
 </html> 

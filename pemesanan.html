@@ -11,95 +11,145 @@
         <!-- Start Description -->
         <meta name="description" content="Tempat Pemesanan Segala Bentuk Desain Grafis Murah" >
         <!-- End Description -->
+
+        <!-- Start CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- End CSS -->
+
+        <!-- Strat JS -->
+        <script src="js/function.js"></script>
+        <!-- End JS -->
     </head>
     <body>
         <!-- Start Logo-->
-        <a href="index.html" title="Bintang Design">
-            <img src="images/logo-bintang-design-grafis.jpg" alt="logo bintang design grafis" width="150">
-        </a>
+        <div class="container logo">
+            <a href="index.html" title="Bintang Design">
+                <img src="images/logo-bintang-design-grafis.jpg" alt="logo bintang design grafis" width="250">
+            </a>
+        </div>
         <!-- End Logo-->
 
         <!-- Start Menu Primer -->
-        <ul>
-            <li><a href="index.html" title="Beranda"> Beranda</a></li>
-            <li><a href="layanan.html" title="Layanan">Layanan</a></li>
-            <li><a href="pemesanan.html" title="Cara Pemesanan">Cara Pemesanan</a></li>
-            <li><a href="pertanyaan.html" title="FAQ">FAQ</a></li>
-            <li><a href="tentang.html" title="Tentang Kami">Tentang Kami</a></li>
-            <li><a href="kontak.html" title="Kontak Kami">Kontak Kami</a></li>
-        </ul>
-        <!-- Start Menu Primer -->
+        <div class="container menu-primer">
+            <!-- <ul>
+                <li><a href="index.html" title="Beranda" class="active"> Beranda</a></li>
+                <li><a href="layanan.html" title="Layanan" class="active">Layanan</a></li>
+                <li><a href="pemesanan.html" title="Cara Pemesanan" class="active">Cara Pemesanan</a></li>
+                <li><a href="pertanyaan.html" title="FAQ" class="active">FAQ</a></li>
+                <li><a href="tentang.html" title="Tentang Kami" class="active">Tentang Kami</a></li>
+                <li><a href="kontak.html" title="Kontak Kami" class="active">Kontak Kami</a></li>
+            </ul> -->
+            <ul class="snip1335">
+                <li class="current"><a href="index.html" data-hover="Home">Home</a></li>
+                <li><a href="layanan.html" data-hover="Layanan">Layanan</a></li>
+                <li><a href="pemesanan.html" data-hover="Pemesanan">Pemesanan</a></li>
+                <li><a href="pertanyaan.html" data-hover="FAQs">FAQs</a></li>
+                <li><a href="tentang.html" data-hover="Tentang Kami">Tentang Kami</a></li>
+                <li><a href="kontak.html" data-hover="Kontak Kami">Kontak Kami</a></li>
+            </ul>
+        </div>
+        <!-- End Menu Primer -->
 
         <!-- Start Jumbotron -->
-        <h1>Cara Pemesanan Jasa Bintang Design</h1>
-        <h3>Melayani Kebutuhan Anda dalam Desain Grafis</h3>
+        <div class="container jumbotron">
+            <h1>Cara Pemesanan Jasa Bintang Design</h1>
+            <h3>Melayani Kebutuhan Anda dalam Desain Grafis</h3>
+        </div>
         <!-- End Jumbotron -->
 
         <!-- Start Pemesanan-->
-        <h2>Tahapan Pemesanan Jasa Desain di Bintang Desain</h2>
-        <p>Anda dapat mengikuti langkah-langkah di bawah ini :</p>
-        <ol>
-            <li>Kontak kami melalui 
-                <a href="mailto:ajibintangnusan@gmail.com" title="ajibintangnusan@gmail.com">Email Kami</a>,
-                <a href="tel:(+62)858-5509-4959" title="(+62)858-5509-4959">Whatsapp Kami</a>,
-                atau melalui halaman <a href="kontak.html" title="Kontak Kami">Kontak Kami</a>
-            </li>
-            <li>Sertakan jenis desain yang anda pesan dan jenis paket yang anda pilih</li>
-            <li>Kemudian kirimkan pesan Anda dan tunggu respon dari kami</li>
-        </ol>
+        <div class="container">
+            <div class="box-heading">
+                <h3>Tahapan Pemesanan Jasa Desain di Bintang Desain</h3>
+            </div>
+            <div class="box-isi">
+                <p>Anda dapat mengikuti langkah-langkah di bawah ini :</p>
+                <ol>
+                    <li>Kontak kami melalui 
+                        <a href="mailto:ajibintangnusan@gmail.com" title="ajibintangnusan@gmail.com">Email Kami</a>,
+                        <a href="tel:(+62)858-5509-4959" title="(+62)858-5509-4959">Whatsapp Kami</a>,
+                        atau melalui halaman <a href="kontak.html" title="Kontak Kami">Kontak Kami</a>
+                    </li>
+                    <li>Sertakan jenis desain yang anda pesan dan jenis paket yang anda pilih</li>
+                    <li>Kemudian kirimkan pesan Anda dan tunggu respon dari kami</li>
+                </ol>
+            </div>
+        </div>
         <!-- End Pemesanan-->
 
         <!-- Start Pembayaran -->
-        <h2>Cara Pembayaran</h2>
-        <p>Anda dapat melakukan pembayaran jasa desain kami dengan cara transfer melalui rekening bank kami</p>
-        <ul>
-            <li>Nama Bank : Bank Manja</li>
-            <li>Nama Penerima : Bintang Design</li>
-            <li>Rekening Penerima : 123-1-465-26</li>
-        </ul>
+        <div class="container">
+            <div class="box-heading">
+                <h3>Cara Pembayaran</h3>
+            </div>
+            <div class="box-isi">
+                <p>Anda dapat melakukan pembayaran jasa desain kami dengan cara transfer melalui rekening bank kami</p>
+                <ul>
+                    <li>Nama Bank : Bank Manja</li>
+                    <li>Nama Penerima : Bintang Design</li>
+                    <li>Rekening Penerima : 123-1-465-26</li>
+                </ul>
+            </div>
+        </div>
         <!-- End Pembayaran -->
 
-        <!-- Start Menu Sekunder -->
-        <h4>Bintang Design</h4>
-        <p>Melayani Kebutuhan Anda dalam Desain Grafis</p>
-        <p>Email <a href="mailto:ajibintangnusan@gmail.com" title="ajibintangnusan@gmail.com">ajibintangnusan@gmail.com</a></p>
-        <p>WA <a href="tel:(+62)858-5509-4959" title="(+62)858-5509-4959">(+62)858-5509-4959</a></p>
+         <!-- Start Menu Sekunder -->
+         <div class="container-full menu-sekunder">
+            <div class="container"></div>
+            <!-- Start Bintang Design -->
+            <div class="menu-sekunder-one">
+                <h4>Bintang Design</h4>
+                <p>Melayani Kebutuhan Anda dalam Desain Grafis</p>
+                <p>Email <a href="mailto:ajibintangnusan@gmail.com" title="ajibintangnusan@gmail.com">ajibintangnusan@gmail.com</a></p>
+                <p>WA <a href="tel:(+62)858-5509-4959" title="(+62)858-5509-4959">(+62)858-5509-4959</a></p>
+            </div>
+            <!-- End Bintang Design -->
 
-        <h4>menu</h4>
-        <ul>
-            <li><a href="index.html" title="Beranda"> Beranda</a></li>
-            <li><a href="layanan.html" title="Layanan">Layanan</a></li>
-            <li><a href="pemesanan.html" title="Cara Pemesanan">Cara Pemesanan</a></li>
-            <li><a href="pertanyaan.html" title="FAQ">FAQ</a></li>
-            <li><a href="tentang.html" title="Tentang Kami">Tentang Kami</a></li>
-            <li><a href="kontak.html" title="Kontak Kami">Kontak Kami</a></li>
-        </ul>
-        
+            <!-- Start Menu -->
+            <div class="menu-sekunder-two">
+                <h4>menu</h4>
+                <ul>
+                    <li><a href="index.html" title="Beranda"> Beranda</a></li>
+                    <li><a href="layanan.html" title="Layanan">Layanan</a></li>
+                    <li><a href="pemesanan.html" title="Cara Pemesanan">Cara Pemesanan</a></li>
+                    <li><a href="pertanyaan.html" title="FAQ">FAQ</a></li>
+                    <li><a href="tentang.html" title="Tentang Kami">Tentang Kami</a></li>
+                    <li><a href="kontak.html" title="Kontak Kami">Kontak Kami</a></li>
+                </ul>
+            </div>
+            <!-- End Menu -->
 
-        <h4>Media Sosial</h4>
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/profile.php?id=100008391818435" title="Facebook - Bintang Design">
-                    <img src="images/logo-facebook.png" alt="logo facebook" width="40"> Facebook - Bintang Design
-                </a>
-            </li>
-            <li><a href="https://www.instagram.com/nusan_bintang/?hl=id" title="Instagram - Bintang Design">
-                    <img src="images/logo-instagram.png" alt="logo Instagram" width="40"> Instagram - Bintang Design
-                </a>
-            </li>
-            <li><a href="https://id.pinterest.com/ajibintang_tara/" title="Pinterest - Bintang Design">
-                    <img src="images/logo-pinterest.png" alt="logo Pinterest" width="40"> Pinterest - Bintang Design
-                </a>
-            </li>
-            <li><a href="https://www.behance.net/ajibintang45d6" title="Behance - Bintang Design">
-                    <img src="images/logo-behance.png" alt="logo Behance" width="40"> Behance - Bintang Design
-                </a>
-            </li>
-        </ul>
+            <!-- Start Sosmed -->
+            <div class="menu-sekunder-three">
+                <h4>Media Sosial</h4>
+                <ul>
+                    <a href="https://www.facebook.com/profile.php?id=100008391818435" title="Facebook - Bintang Design">
+                        <img src="images/logo-facebook.png" alt="logo facebook" width="20"> 
+                    </a>
+                
+                    <a href="https://www.instagram.com/nusan_bintang/?hl=id" title="Instagram - Bintang Design">
+                        <img src="images/logo-instagram.png" alt="logo Instagram" width="20"> 
+                    </a>
+                
+                    <a href="https://id.pinterest.com/ajibintang_tara/" title="Pinterest - Bintang Design">
+                        <img src="images/logo-pinterest.png" alt="logo Pinterest" width="20"> 
+                    </a>
+                
+                    <a href="https://www.behance.net/ajibintang45d6" title="Behance - Bintang Design">
+                        <img src="images/logo-behance.png" alt="logo Behance" width="20"> 
+                    </a>
+                    
+                </ul>
+            </div>
+            <!-- End Sosmed -->
+
+        </div>
         <!-- End Menu Sekunder -->
 
         <!-- Start Copyright -->
-        <p>Copyright &copy; 2019 - Bintang Design</p>
+        <div class="container copyright">
+            <p>Copyright &copy; 2019 - Bintang Design</p>
+        </div>
         <!-- End Copyright -->
     </body>
 </html> 
