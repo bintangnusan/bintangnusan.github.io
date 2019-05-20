@@ -94,227 +94,7 @@ a:active {
 }
 /* End Menu Primer*/
 
-/* Start Jumbotron */
-.jumbotron {
-    background-color: #f6f8fa;
-    border: 1px solid #eaecef;
-    border-radius: 4px;
-    padding: 20px 0;
-    font-family: Modak, Helvetica, sans-serif
-}
-.jumbotron h1 {
-    font-size: 32px;
-    padding: 0 25px;
-    text-align: center;
-}
-.jumbotron h3 {
-    font-size: 24px;
-    text-align: center;
-}
-/* End Jumbotron */
-
-/* Start Heading */
-h1, h2, h3, h4, h4, h5, h6 {
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-h1 {
-    font-size: 30px
-}
-h2 {
-    font-size: 26px
-}
-h3 {
-    font-size: 24px
-}
-h4 {
-    font-size: 20px
-}
-h5 {
-    font-size: 18px
-}
-h6 {
-    font-size: 16px
-}
-/* Start Heading */
-
-/* Start Main */
-.main-menu-one {
-    float: left;
-    width: 49%;
-}
-.main-menu-two {
-    float: right;
-    width: 49%;
-}
-/* Start Main */
-
-/* Start Box */
-.box-heading {
-    background-color: #f6f8fa;
-    border: 1px solid #d1d5da;
-    border-radius: 4px 4px 0 0;
-    margin: 0;
-    padding: 10px 20px;
-    text-transform: uppercase;
-}
-.box-heading h4 {
-    font-size: 14px;
-    margin: 0;
-}
-/* End Box */
-
-/* Start Effect */
-/* @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-.snip1545 {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  margin: 10px;
-  min-width: 10%;
-  max-width: 20%;
-  width: 100%;
-  color: #ffffff;
-  font-size: 16px;
-  background-color: #000000;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-}
-
-.snip1545 *,
-.snip1545 *:before,
-.snip1545 *:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-
-.snip1545 img {
-  max-width: 100%;
-  backface-visibility: hidden;
-  vertical-align: top;
-}
-
-.snip1545 figcaption {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.snip1545 figcaption:before,
-.snip1545 figcaption:after,
-.snip1545 figcaption div:before,
-.snip1545 figcaption div:after {
-  opacity: 0;
-}
-
-.snip1545 figcaption:before,
-.snip1545 figcaption:after {
-  height: 50%;
-  width: 50%;
-  position: absolute;
-  content: '';
-  background-color: #080808;
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-}
-
-.snip1545 figcaption:before {
-  top: 0;
-  left: 0;
-  -webkit-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-}
-
-.snip1545 figcaption:after {
-  bottom: 0;
-  right: 0;
-  -webkit-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  transform-origin: 0 0;
-}
-
-.snip1545 figcaption div:before,
-.snip1545 figcaption div:after {
-  width: 50%;
-  height: 50%;
-  position: absolute;
-  content: '';
-  background-color: #000000;
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.snip1545 figcaption div:before {
-  top: 0;
-  right: 0;
-  -webkit-transform-origin: 0 100%;
-  -ms-transform-origin: 0 100%;
-  transform-origin: 0 100%;
-}
-
-.snip1545 figcaption div:after {
-  bottom: 0;
-  left: 0;
-  -webkit-transform-origin: 100% 0;
-  -ms-transform-origin: 100% 0;
-  transform-origin: 100% 0;
-}
-
-.snip1545 i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 4em;
-  z-index: 1;
-  opacity: 0;
-}
-
-.snip1545 a {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.snip1545:hover img,
-.snip1545.hover img {
-  zoom: 1;
-  filter: alpha(opacity=50);
-  -webkit-opacity: 0.5;
-  opacity: 0.5;
-}
-
-.snip1545:hover i,
-.snip1545.hover i {
-  opacity: 0.7;
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-
-.snip1545:hover figcaption:before,
-.snip1545.hover figcaption:before,
-.snip1545:hover figcaption:after,
-.snip1545.hover figcaption:after,
-.snip1545:hover figcaption div:before,
-.snip1545.hover figcaption div:before,
-.snip1545:hover figcaption div:after,
-.snip1545.hover figcaption div:after {
-  -webkit-transform: rotate(0);
-  transform: rotate(0);
-  opacity: 0.8;
-} */
-/* End Effect */
-
-/* Start Menu  */
+/* Start Menu Effect */
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
 .snip1335 {
   font-family: 'Raleway', Arial, sans-serif;
@@ -367,8 +147,141 @@ h6 {
 .snip1335 li.current a:after {
   opacity: 1;
 }
-/* Demo purposes only */
 body {
   background-color: none;
 }
-/* End Menu */
+/* End Menu Effect */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #f6f8fa;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+    font-family: Modak, Helvetica, sans-serif
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 25px;
+    text-align: center;
+}
+.jumbotron h3 {
+    font-size: 24px;
+    text-align: center;
+}
+/* End Jumbotron */
+
+/* Start Heading */
+h1, h2, h3, h4, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 30px
+}
+h2 {
+    font-size: 26px
+}
+h3 {
+    font-size: 24px
+}
+h4 {
+    font-size: 20px
+}
+h5 {
+    font-size: 18px
+}
+h6 {
+    font-size: 16px
+}
+/* Start Heading */
+
+/* Start Main */
+.main-menu-one {
+    float: left;
+    width: 49.5%;
+}
+.main-menu-two {
+    float: right;
+    width: 49.5%;
+}
+
+.main-menu-one .box-isi,
+.main-menu-two .box-isi {
+    height: 180px;
+}
+
+/* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 4px 4px 0 0;
+    margin: 0;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-heading h2 {
+  font-size: 20px;
+}
+.box-heading h3 {
+  font-size: 16px;
+}
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #d1d5da;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+  background-color: aliceblue;
+  border-bottom: #eaecef;
+  border-top: #eaecef;
+  overflow: auto; 
+  padding: 5px 60px;
+}
+.menu-sekunder h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.menu-sekunder ul {
+  padding: 0;
+}
+.menu-sekunder li {
+  list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p {
+  font-size: 16px;
+}
+.menu-sekunder-one, 
+.menu-sekunder-two,
+.menu-sekunder-three {
+  float: left;
+}
+.menu-sekunder-one {
+  width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three {
+  width: 30%;
+}
+.menu-sekunder img {
+  vertical-align: middle;
+}
+/* End Menu Sekunder */
+
+/* Start Copyright */
+.copyright p {
+  font-size: 16px;
+}
+/* End Copyright */
